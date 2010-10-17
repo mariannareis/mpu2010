@@ -1,4 +1,8 @@
 Calcule a sua colocação no concurso do MPU 2010
+
+Como até agora só saiu o resultado com as notas, mas sem organização e sem dar pra visualizar bem como cada candidato ficou colocado, fiz esse scriptzinho para permitir que se tenha uma visualização melhor sobre a colocação de acordo com aos resultados obtidos no concurso.
+Espero que seja útil!
+
 ===============================================
 
 * Pré-requisitos:
