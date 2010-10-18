@@ -28,9 +28,20 @@ No terminal, navegue até a pasta onde está o arquivo.
 
 Ainda no terminal, digite:
 
+- gedit script_cargo.rb
+
+Substitua os valores de cargo e nota (linhas 41 e 42) pelo conteudo solicitado, conforme explicado pelo programa.
+
+Salve e feche o gedit.
+
+Volte para o terminal e digite:
 - ruby script_cargo.rb
 
-O programa fornecerá as demais instruções.
+O sistema exibirá as pessoas que estão antes de você na classificação com suas notas e a sua nota e colocação.
+
+===============================================
+
+Dados solicitados pelo programa:
 
 Vocẽ só precisa ter a sua nota total e a listagem do resultado completa do seu cargo, disponível no site do MPU (www.cespe.unb.br/concursos/mpu2010)
 

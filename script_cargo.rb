@@ -38,14 +38,13 @@ def calcula_notas_mpu(cargo, nota)
   end
 end
 
-puts "INFORME AQUI O RESULTADO COMPLETO DO SEU CARGO:"
-resultado_do_seu_cargo = gets.chomp.to_s
+cargo = "SUBSTITUA ESSE TEXTO PELO RESULTADO COMPLETO DO SEU CARGO, CUIDADO QUANDO FOR MAIS DE UMA PÁGINA, POIS O TEXTO DEVE FICAR SEM OS ENTERS (disponível em www.cespe.unb.br/concursos/mpu2010)! MANTENHA AS ASPAS"
+nota = "SUBSTITUA ESSE VALOR PELA SUA NOTA TOTAL. RETIRE AS ASPAS. EXEMPLO: 105.82"
 
-puts "INFORME AQUI A SUA NOTA FINAL (EXEMPLO: 102.06):"
-sua_nota_final = gets.chomp.to_f
-
-puts "Colocados anteriores a você: \n"
-puts calcula_notas_mpu(resultado_do_seu_cargo, sua_nota_final)
-puts "\n Sua Colocação: " + @resultado.to_s
+puts "Notas do seu cargo: \n"
+puts calcula_notas_mpu(cargo, nota)
+puts "Sua Colocação: " + @resultado.to_s
 puts "\n\n\n\n"
+
+resultado_do_seu_cargo = gets.chomp.to_s
 
