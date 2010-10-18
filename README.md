@@ -35,6 +35,7 @@ Substitua os valores de cargo e nota (linhas 41 e 42) pelo conteudo solicitado, 
 Salve e feche o gedit.
 
 Volte para o terminal e digite:
+
 - ruby script_cargo.rb
 
 O sistema exibirá as pessoas que estão antes de você na classificação com suas notas e a sua nota e colocação.
